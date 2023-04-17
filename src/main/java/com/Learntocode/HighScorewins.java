@@ -19,5 +19,7 @@ public class HighScorewins {
         System.out.println(team2);
         System.out.println(team1score);
         System.out.println(team2score);
+
+
     }
 }
