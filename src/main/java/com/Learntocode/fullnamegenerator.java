@@ -15,7 +15,7 @@ public class fullnamegenerator {
         System.out.print("Please Enter Your Last Name: ");
         String lastName = input.nextLine();
 
-        String fullName = firstName + middleName + lastName;
+        String fullName = firstName  +  middleName.charAt(0) +  lastName;
         System.out.println("Your Full Name is: " + fullName);
     }
 }
