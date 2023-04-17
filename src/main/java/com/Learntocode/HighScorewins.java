@@ -10,15 +10,17 @@ public class HighScorewins {
 
         String [] info = scoreinfo.split(" ");
 
-        String team1= (info[0]);
-        String team2= info[1];
-        int team1score= Integer.parseInt(info[2]);
-        int team2score= Integer.parseInt(info[3]);
 
-        System.out.println(team1);
-        System.out.println(team2);
-        System.out.println(team1score);
-        System.out.println(team2score);
+        String team1scores =( info[0] + Integer.parseInt(info[2]));
+        String team2scores =(info[1] + Integer.parseInt(info[3]));
+
+        System.out.println(team1scores);
+        System.out.println(team2scores);
+
+
+
+
+
 
 
     }
